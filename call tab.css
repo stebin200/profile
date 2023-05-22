@@ -1,0 +1,292 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Jost,Arial,Helvetica,sans-serif;
+    
+}
+
+/* page 1 index */
+ul li {
+    line-height:-10px;
+    font-size: 30px;
+    margin-left: -20px;
+    margin-top: 30px;
+    padding: 15px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background-color: rgb(255, 221, 0);
+}
+.rewall h1{
+    margin-left: -20px;
+    font-family: serif;
+}
+.rewall {
+    font-size: 30px;
+    border-right: 5px solid black;
+    margin-left: 90px;
+    margin-top: 40px;
+    float: left;
+    position: fixed;
+    padding-right: 80px;
+    height: 300vh;
+    font-family: serif;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 27vh;
+    margin-right: 1vw;
+    font-family: Jost,Arial,Helvetica,sans-serif;
+    float: right;
+
+    
+
+}
+
+.img{
+    position: relative;
+    top: 3vh;
+    left: 500px;
+}
+.border{
+    position: absolute;
+    border: 10px solid black;
+    width: 430px;
+    height: 470px;
+    left: -140px;
+    top:-90px;
+    
+}
+.backgroundImage{
+    position: absolute;
+    right: 0;
+    height: 340px;
+    width: 500px;
+    top: -20px;
+    left: -165px;
+}
+.backgroundImageTwo{
+    position: absolute;
+    top: -60px;
+    left: -6vw;
+    height: 430px;
+    width: 370px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.content {
+    
+}
+
+.title {
+    margin-left: 60vw;
+    margin-top: -80px;
+    width:30vw;
+    height: -100px;
+}
+.para{
+    font-size: larger;
+}
+.web{
+    font-size: 40px;
+    font-family: serif;
+}
+.sign img{
+    height: 100px;
+    width: 200px;
+    margin-left: 65vw;
+    margin-top: -3px;
+    
+}
+.pagebottom{
+    border-bottom: 5px solid black;
+    width: 70vw;
+    margin-left: 430px;
+    margin-top: 100px;
+}
+/* page 1 end */
+
+/* page 2 biography */
+
+.body2{
+    margin-top: 300px;
+}
+#bio{
+    font-size: 90px;
+    font-family: serif;
+    margin-left: 700px;
+}
+.underline{
+    border-bottom: 5px solid black;
+    width: 180px;
+    margin-left:900px;
+}
+.para2{
+    margin-top: 100px;
+    margin-left: 650px;
+    line-height: 30px;
+    font-size: large;
+}
+.two{
+    margin-left:9px ;
+}
+.three{
+    margin-left: 40px;
+}
+.content:hover{
+    background-color: rgb(255, 221, 0);
+}
+.content2:hover{
+    background-color: rgb(255, 221, 0);
+}
+.content3:hover{
+    background-color: rgb(255, 221, 0);
+}
+.content4:hover{
+    background-color: rgb(255, 221, 0);
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    padding: 30px;
+    
+}
+.content{
+    border: 3px solid black;height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+
+    
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 750px;
+    padding: 30px;
+    margin-top: -30px;
+}
+.content2{
+    border: 3px solid black; height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    padding: 30px;
+    margin-top: -30px;
+}
+.content3{
+    border: 3px solid black; height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 850px;
+    padding: 30px;
+    margin-top: -30px;
+}
+.content4{
+    border: 3px solid black; height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+}
+/* image line */
+.line1{
+margin-left: 800px;
+margin-top: 100px;
+}
+.line2{
+    margin-left: 730px;
+    margin-top: 100px;
+}
+.line3{
+        margin-left: 850px;
+        margin-top: 100px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    font-size: 30px;
+  
+
+}
+.skills1{
+    border-right: 2px solid black;
+    margin-left: 600px;
+    padding-right: 20px;
+}
+.skills2{
+    border-right: 2px solid black;
+    margin-left: 100px;
+    padding-right: 20px;
+}
+.skills3{
+    border-right: 2px solid black;
+    margin-left: 150px;
+    padding-right: 20px;
+}
+.page2para{
+    margin-left: 450px;
+    margin-top: 100px;
+    height: 150px;
+    width: 700px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+.page3para{
+    margin-left: 450px;
+    margin-top: 40px;
+    height: 150px;
+    width: 700px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+.page4para{
+    margin-left: 450px;
+    margin-top: 40px;
+    height: 150px;
+    width: 700px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+.pagebottom1{
+    border-bottom: 5px solid black;
+    width: 70vw;
+    margin-left: 430px;
+    margin-top: 100px;
+} 
+
+@media screen and (min-width:340px) {  
+   .img {font-size: 30px;}
+
+    
+}
