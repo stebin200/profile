@@ -4,7 +4,6 @@ html{
 }
 body{
     font-family: Jost,Arial,Helvetica,sans-serif;
-    
 }
 
 /* page 1 index */
@@ -15,6 +14,7 @@ ul li {
     margin-top: 30px;
     padding: 15px 20px;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -26,7 +26,9 @@ li:hover{
     margin-left: -20px;
     font-family: serif;
 }
-.rewall {
+
+
+.rewall{
     font-size: 30px;
     border-right: 5px solid black;
     margin-left: 90px;
@@ -56,6 +58,7 @@ li:hover{
     top: 3vh;
     left: 500px;
 }
+
 .border{
     position: absolute;
     border: 10px solid black;
@@ -65,6 +68,7 @@ li:hover{
     top:-90px;
     
 }
+
 .backgroundImage{
     position: absolute;
     right: 0;
@@ -73,6 +77,7 @@ li:hover{
     top: -20px;
     left: -165px;
 }
+
 .backgroundImageTwo{
     position: absolute;
     top: -60px;
@@ -80,7 +85,6 @@ li:hover{
     height: 430px;
     width: 370px;
 }
-
 
 
 
@@ -98,13 +102,12 @@ ul {
     width:30vw;
     height: -100px;
 }
-.para{
-    font-size: larger;
-}
+
 .web{
     font-size: 40px;
     font-family: serif;
 }
+
 .sign img{
     height: 100px;
     width: 200px;
@@ -112,12 +115,14 @@ ul {
     margin-top: -3px;
     
 }
+
 .pagebottom{
-    border-bottom: 5px solid black;
+    border-bottom: 10px solid black;
     width: 70vw;
     margin-left: 430px;
     margin-top: 100px;
 }
+
 /* page 1 end */
 
 /* page 2 biography */
@@ -125,22 +130,26 @@ ul {
 .body2{
     margin-top: 300px;
 }
+
 #bio{
     font-size: 90px;
     font-family: serif;
     margin-left: 700px;
 }
+
 .underline{
     border-bottom: 5px solid black;
     width: 180px;
     margin-left:900px;
 }
+
 .para2{
     margin-top: 100px;
     margin-left: 650px;
     line-height: 30px;
     font-size: large;
 }
+
 .two{
     margin-left:9px ;
 }
@@ -159,6 +168,9 @@ ul {
 .content4:hover{
     background-color: rgb(255, 221, 0);
 }
+   .wholebox{
+        margin-left: -10vw;
+    }
 .box{
     display: flex;
     flex-direction: row;
@@ -166,7 +178,8 @@ ul {
     padding: 30px;
     
 }
-.content{
+
+.contents1{
     border: 3px solid black;height: 19px;
     padding: 10px;
     margin-right: 40px;
@@ -175,6 +188,25 @@ ul {
 
     
 }
+.contents2{
+    border: 3px solid black;height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+
+    
+}
+.contents3{
+    border: 3px solid black;height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+
+    
+}
+
 .box2{
     display: flex;
     flex-direction: row;
@@ -182,13 +214,22 @@ ul {
     padding: 30px;
     margin-top: -30px;
 }
-.content2{
+
+.contentss1{
     border: 3px solid black; height: 19px;
     padding: 10px;
     margin-right: 40px;
     /* background-color: azure; */
     font-size: larger;
 }
+.contentss2{
+    border: 3px solid black; height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+}
+
 .box3{
     display: flex;
     flex-direction: row;
@@ -196,13 +237,22 @@ ul {
     padding: 30px;
     margin-top: -30px;
 }
-.content3{
+
+.contentsss1{
     border: 3px solid black; height: 19px;
     padding: 10px;
     margin-right: 40px;
     /* background-color: azure; */
     font-size: larger;
 }
+.contentsss2{
+    border: 3px solid black; height: 19px;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: azure; */
+    font-size: larger;
+}
+
 .box4{
     display: flex;
     flex-direction: row;
@@ -210,6 +260,7 @@ ul {
     padding: 30px;
     margin-top: -30px;
 }
+
 .content4{
     border: 3px solid black; height: 19px;
     padding: 10px;
@@ -222,14 +273,19 @@ ul {
 margin-left: 800px;
 margin-top: 100px;
 }
+
+
 .line2{
     margin-left: 730px;
     margin-top: 100px;
 }
+
+
 .line3{
         margin-left: 850px;
         margin-top: 100px;
 }
+
 .skills{
     display: flex;
     flex-direction: row;
@@ -238,21 +294,25 @@ margin-top: 100px;
   
 
 }
+
 .skills1{
     border-right: 2px solid black;
     margin-left: 600px;
     padding-right: 20px;
 }
+
 .skills2{
     border-right: 2px solid black;
     margin-left: 100px;
     padding-right: 20px;
 }
+
 .skills3{
     border-right: 2px solid black;
     margin-left: 150px;
     padding-right: 20px;
 }
+
 .page2para{
     margin-left: 450px;
     margin-top: 100px;
@@ -270,23 +330,225 @@ margin-top: 100px;
     background-color: #f2f2f2;
     padding: 40px;
 }
+
 .page4para{
     margin-left: 450px;
     margin-top: 40px;
     height: 150px;
     width: 700px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 40px;
 }
+
 .pagebottom1{
     border-bottom: 5px solid black;
     width: 70vw;
     margin-left: 430px;
     margin-top: 100px;
 } 
-
-@media screen and (min-width:340px) {  
-   .img {font-size: 30px;}
-
+@media screen and (max-width: 325px) {
     
+    
+    .profile{
+        display:flex;
+        height: 300px;
+        width: 30px;
+    }
+    .img{
+    width: 100%;
+    }
+    .abcd{
+        display: none;
+    }
+    .title{
+        margin-right: 190px;
+        margin-top: 55vh;
+        font-size: large;
+    }
+    .name{
+        width: 50vw;
+    }
+    .web{
+        font-size: 65px;
+        margin-left: 5px;
+    }
+    .para{
+        width: 90vw;
+    }
+    
+
+    .heading{
+        display:flex;
+        flex-direction: column;
+    }
+    .rewall{
+        border-right: none;
+    }
+    .backgroundImage{
+        position: absolute;
+        right: 0%;
+        left: -324px;
+        top: 28px;
+        height: 322px;
+        width: 306px;
+    }
+    .border{
+        position: absolute;
+        top: -12px;
+        width: 256px;
+        height: 381px;
+        left: -309px;
+    
+    }
+    .backgroundImageTwo{
+        position: absolute;
+        top: 5px;
+        left: -92vw;
+        height: 363px;
+        width: 245px;
+    }
+    .big{
+        margin-left: -50px;
+    }
+    .sign{
+        margin-left: -60vw;
+    }
+    .pagebottom{
+        border-bottom: 5px solid black;
+        margin-left: 1vw;
+        margin-top: 10vh;
+        width: 93vw;
+    }
+    /* page 1 end */
+
+    #bio{
+        margin-left: 4vw;
+        font-size: 50px;
+        margin-top: -20vh;
+    }
+    .underline{
+        margin-left: 19vw;
+    }
+    .para2{
+        margin-left: 4vw;
+        width: 95vw;
+    }
+    .two{
+        margin-left: -1vw;
+    }
+    .three{
+        margin-left: -1vw;
+    }
+ 
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+        width: 108vw;
+    }
+    .contents2{
+        margin-top: 1vh;
+    }
+    .contents3{
+        margin-top: 1vh;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+        width: 108vw;
+    }
+    .contentss1{
+        margin-top: 1vh;
+    }
+    .contentss2{
+        margin-top: 1vh;
+    }
+    .box3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+        width: 108vw;
+    }
+    .contentsss1{
+        margin-top: 1vh;
+    }
+    .contentsss2{
+        margin-top: 1vh;
+    }
+    .box4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+        width: 108vw;
+    }
+    .content4{
+        margin-top: 1vh;
+    }
+    .line1{
+        margin-left: 2vw;
+        margin-top: 7vh;
+      
+    }
+    .line2{
+        margin-left: 9vw;
+        height: 25vh;
+        margin-top: 3vh;
+    }
+    .line3{
+        margin-left: 18vw;
+        margin-top: 6vh;
+    }
+    .skills{
+        display: flex;
+        flex-direction:column;
+        margin-top: 100px;
+        font-size: 30px;
+       }
+      .skills1{
+        /* border-right: 2px solid black; */
+        margin-left: 10vw;
+        padding-right: 20px;
+    }
+    
+    .skills2{
+        /* border-right: 2px solid black; */
+        margin-left: 100px;
+        padding-right: 20px;
+    }
+    
+    .skills3{
+        /* border-right: 2px solid black; */
+        margin-left: 150px;
+        padding-right: 20px;
+    }
+    .page2para{
+        margin-left: 1vw;
+        margin-top: 100px;
+        height: 10vh;
+        width: 65vw;
+        background-color: #f2f2f2;
+        padding: 40px;
+        font-size: 7px;
+    }
+    
+    .page3para{
+        margin-left: 1vw;
+        margin-top: 3vh;
+        height: 10vh;
+        width: 65vw;
+        background-color: #f2f2f2;
+        padding: 40px;
+        font-size: 7px;
+    }
+    
+    .page4para{
+        margin-left: 1vw;
+        margin-top: 3vh;
+        height: 10vh;
+        width: 65vw;
+        background-color: #f2f2f2;
+        padding: 40px;
+        font-size: 7px;
+    }
 }
